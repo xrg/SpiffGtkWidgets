@@ -42,11 +42,8 @@ auto-indenting bullet point lists, etc.
 
 %files
 %defattr(-,root,root)
+%doc AUTHORS COPYING INSTALL README
 %{python_sitelib}/SpiffGtkWidgets/
 %{python_sitelib}/SpiffGtkWidgets-%{version}-py%{python_version}.egg-info
-
-%post
-
-%postun
 
 %changelog
